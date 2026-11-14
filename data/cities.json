@@ -1,0 +1,730 @@
+{
+  "counties": [
+    {
+      "id": 1,
+      "name": "Zagrebačka"
+    },
+    {
+      "id": 2,
+      "name": "Krapinsko-zagorska"
+    },
+    {
+      "id": 3,
+      "name": "Sisačko-moslavačka"
+    },
+    {
+      "id": 4,
+      "name": "Karlovačka"
+    },
+    {
+      "id": 5,
+      "name": "Varaždinska"
+    },
+    {
+      "id": 6,
+      "name": "Koprivničko-križevačka"
+    },
+    {
+      "id": 7,
+      "name": "Bjelovarsko-bilogorska"
+    },
+    {
+      "id": 8,
+      "name": "Primorsko-goranska"
+    },
+    {
+      "id": 9,
+      "name": "Ličko-senjska"
+    },
+    {
+      "id": 10,
+      "name": "Virovitičko-podravska"
+    },
+    {
+      "id": 11,
+      "name": "Požeško-slavonska"
+    },
+    {
+      "id": 12,
+      "name": "Brodsko-posavska"
+    },
+    {
+      "id": 13,
+      "name": "Zadarska"
+    },
+    {
+      "id": 14,
+      "name": "Osječko-baranjska"
+    },
+    {
+      "id": 15,
+      "name": "Šibensko-kninska"
+    },
+    {
+      "id": 16,
+      "name": "Vukovarsko-srijemska"
+    },
+    {
+      "id": 17,
+      "name": "Splitsko-dalmatinska"
+    },
+    {
+      "id": 18,
+      "name": "Istarska"
+    },
+    {
+      "id": 19,
+      "name": "Dubrovačko-neretvanska"
+    },
+    {
+      "id": 20,
+      "name": "Međimurska"
+    },
+    {
+      "id": 21,
+      "name": "Grad Zagreb"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Velika Gorica",
+      "county_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Samobor",
+      "county_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Zaprešić",
+      "county_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Sveta Nedelja",
+      "county_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Dugo Selo",
+      "county_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Sveti Ivan Zelina",
+      "county_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Jastrebarsko",
+      "county_id": 1
+    },
+    {
+      "id": 8,
+      "name": "Ivanić-Grad",
+      "county_id": 1
+    },
+    {
+      "id": 9,
+      "name": "Vrbovec",
+      "county_id": 1
+    },
+    {
+      "id": 10,
+      "name": "Krapina",
+      "county_id": 2
+    },
+    {
+      "id": 11,
+      "name": "Zabok",
+      "county_id": 2
+    },
+    {
+      "id": 12,
+      "name": "Pregrada",
+      "county_id": 2
+    },
+    {
+      "id": 13,
+      "name": "Oroslavje",
+      "county_id": 2
+    },
+    {
+      "id": 14,
+      "name": "Zlatar",
+      "county_id": 2
+    },
+    {
+      "id": 15,
+      "name": "Donja Stubica",
+      "county_id": 2
+    },
+    {
+      "id": 16,
+      "name": "Klanjec",
+      "county_id": 2
+    },
+    {
+      "id": 17,
+      "name": "Sisak",
+      "county_id": 3
+    },
+    {
+      "id": 18,
+      "name": "Petrinja",
+      "county_id": 3
+    },
+    {
+      "id": 19,
+      "name": "Kutina",
+      "county_id": 3
+    },
+    {
+      "id": 20,
+      "name": "Novska",
+      "county_id": 3
+    },
+    {
+      "id": 21,
+      "name": "Popovača",
+      "county_id": 3
+    },
+    {
+      "id": 22,
+      "name": "Glina",
+      "county_id": 3
+    },
+    {
+      "id": 23,
+      "name": "Hrvatska Kostajnica",
+      "county_id": 3
+    },
+    {
+      "id": 24,
+      "name": "Karlovac",
+      "county_id": 4
+    },
+    {
+      "id": 25,
+      "name": "Ogulin",
+      "county_id": 4
+    },
+    {
+      "id": 26,
+      "name": "Duga Resa",
+      "county_id": 4
+    },
+    {
+      "id": 27,
+      "name": "Ozalj",
+      "county_id": 4
+    },
+    {
+      "id": 28,
+      "name": "Slunj",
+      "county_id": 4
+    },
+    {
+      "id": 29,
+      "name": "Varaždin",
+      "county_id": 5
+    },
+    {
+      "id": 30,
+      "name": "Ivanec",
+      "county_id": 5
+    },
+    {
+      "id": 31,
+      "name": "Novi Marof",
+      "county_id": 5
+    },
+    {
+      "id": 32,
+      "name": "Ludbreg",
+      "county_id": 5
+    },
+    {
+      "id": 33,
+      "name": "Lepoglava",
+      "county_id": 5
+    },
+    {
+      "id": 34,
+      "name": "Varaždinske Toplice",
+      "county_id": 5
+    },
+    {
+      "id": 35,
+      "name": "Koprivnica",
+      "county_id": 6
+    },
+    {
+      "id": 36,
+      "name": "Križevci",
+      "county_id": 6
+    },
+    {
+      "id": 37,
+      "name": "Đurđevac",
+      "county_id": 6
+    },
+    {
+      "id": 38,
+      "name": "Bjelovar",
+      "county_id": 7
+    },
+    {
+      "id": 39,
+      "name": "Daruvar",
+      "county_id": 7
+    },
+    {
+      "id": 40,
+      "name": "Garešnica",
+      "county_id": 7
+    },
+    {
+      "id": 41,
+      "name": "Čazma",
+      "county_id": 7
+    },
+    {
+      "id": 42,
+      "name": "Grubišno Polje",
+      "county_id": 7
+    },
+    {
+      "id": 43,
+      "name": "Rijeka",
+      "county_id": 8
+    },
+    {
+      "id": 44,
+      "name": "Opatija",
+      "county_id": 8
+    },
+    {
+      "id": 45,
+      "name": "Kastav",
+      "county_id": 8
+    },
+    {
+      "id": 46,
+      "name": "Crikvenica",
+      "county_id": 8
+    },
+    {
+      "id": 47,
+      "name": "Bakar",
+      "county_id": 8
+    },
+    {
+      "id": 48,
+      "name": "Mali Lošinj",
+      "county_id": 8
+    },
+    {
+      "id": 49,
+      "name": "Rab",
+      "county_id": 8
+    },
+    {
+      "id": 50,
+      "name": "Krk",
+      "county_id": 8
+    },
+    {
+      "id": 51,
+      "name": "Delnice",
+      "county_id": 8
+    },
+    {
+      "id": 52,
+      "name": "Novi Vinodolski",
+      "county_id": 8
+    },
+    {
+      "id": 53,
+      "name": "Kraljevica",
+      "county_id": 8
+    },
+    {
+      "id": 54,
+      "name": "Vrbovsko",
+      "county_id": 8
+    },
+    {
+      "id": 55,
+      "name": "Čabar",
+      "county_id": 8
+    },
+    {
+      "id": 56,
+      "name": "Cres",
+      "county_id": 8
+    },
+    {
+      "id": 57,
+      "name": "Gospić",
+      "county_id": 9
+    },
+    {
+      "id": 58,
+      "name": "Otočac",
+      "county_id": 9
+    },
+    {
+      "id": 59,
+      "name": "Senj",
+      "county_id": 9
+    },
+    {
+      "id": 60,
+      "name": "Novalja",
+      "county_id": 9
+    },
+    {
+      "id": 61,
+      "name": "Virovitica",
+      "county_id": 10
+    },
+    {
+      "id": 62,
+      "name": "Slatina",
+      "county_id": 10
+    },
+    {
+      "id": 63,
+      "name": "Orahovica",
+      "county_id": 10
+    },
+    {
+      "id": 64,
+      "name": "Požega",
+      "county_id": 11
+    },
+    {
+      "id": 65,
+      "name": "Pleternica",
+      "county_id": 11
+    },
+    {
+      "id": 66,
+      "name": "Pakrac",
+      "county_id": 11
+    },
+    {
+      "id": 67,
+      "name": "Lipik",
+      "county_id": 11
+    },
+    {
+      "id": 68,
+      "name": "Kutjevo",
+      "county_id": 11
+    },
+    {
+      "id": 69,
+      "name": "Slavonski Brod",
+      "county_id": 12
+    },
+    {
+      "id": 70,
+      "name": "Nova Gradiška",
+      "county_id": 12
+    },
+    {
+      "id": 71,
+      "name": "Zadar",
+      "county_id": 13
+    },
+    {
+      "id": 72,
+      "name": "Benkovac",
+      "county_id": 13
+    },
+    {
+      "id": 73,
+      "name": "Biograd na Moru",
+      "county_id": 13
+    },
+    {
+      "id": 74,
+      "name": "Obrovac",
+      "county_id": 13
+    },
+    {
+      "id": 75,
+      "name": "Pag",
+      "county_id": 13
+    },
+    {
+      "id": 76,
+      "name": "Nin",
+      "county_id": 13
+    },
+    {
+      "id": 77,
+      "name": "Osijek",
+      "county_id": 14
+    },
+    {
+      "id": 78,
+      "name": "Đakovo",
+      "county_id": 14
+    },
+    {
+      "id": 79,
+      "name": "Našice",
+      "county_id": 14
+    },
+    {
+      "id": 80,
+      "name": "Valpovo",
+      "county_id": 14
+    },
+    {
+      "id": 81,
+      "name": "Belišće",
+      "county_id": 14
+    },
+    {
+      "id": 82,
+      "name": "Donji Miholjac",
+      "county_id": 14
+    },
+    {
+      "id": 83,
+      "name": "Beli Manastir",
+      "county_id": 14
+    },
+    {
+      "id": 84,
+      "name": "Šibenik",
+      "county_id": 15
+    },
+    {
+      "id": 85,
+      "name": "Knin",
+      "county_id": 15
+    },
+    {
+      "id": 86,
+      "name": "Vodice",
+      "county_id": 15
+    },
+    {
+      "id": 87,
+      "name": "Drniš",
+      "county_id": 15
+    },
+    {
+      "id": 88,
+      "name": "Skradin",
+      "county_id": 15
+    },
+    {
+      "id": 89,
+      "name": "Vinkovci",
+      "county_id": 16
+    },
+    {
+      "id": 90,
+      "name": "Vukovar",
+      "county_id": 16
+    },
+    {
+      "id": 91,
+      "name": "Županja",
+      "county_id": 16
+    },
+    {
+      "id": 92,
+      "name": "Ilok",
+      "county_id": 16
+    },
+    {
+      "id": 93,
+      "name": "Otok",
+      "county_id": 16
+    },
+    {
+      "id": 94,
+      "name": "Split",
+      "county_id": 17
+    },
+    {
+      "id": 95,
+      "name": "Kaštela",
+      "county_id": 17
+    },
+    {
+      "id": 96,
+      "name": "Solin",
+      "county_id": 17
+    },
+    {
+      "id": 97,
+      "name": "Sinj",
+      "county_id": 17
+    },
+    {
+      "id": 98,
+      "name": "Omiš",
+      "county_id": 17
+    },
+    {
+      "id": 99,
+      "name": "Makarska",
+      "county_id": 17
+    },
+    {
+      "id": 100,
+      "name": "Trogir",
+      "county_id": 17
+    },
+    {
+      "id": 101,
+      "name": "Imotski",
+      "county_id": 17
+    },
+    {
+      "id": 102,
+      "name": "Trilj",
+      "county_id": 17
+    },
+    {
+      "id": 103,
+      "name": "Vrgorac",
+      "county_id": 17
+    },
+    {
+      "id": 104,
+      "name": "Supetar",
+      "county_id": 17
+    },
+    {
+      "id": 105,
+      "name": "Hvar",
+      "county_id": 17
+    },
+    {
+      "id": 106,
+      "name": "Stari Grad",
+      "county_id": 17
+    },
+    {
+      "id": 107,
+      "name": "Vis",
+      "county_id": 17
+    },
+    {
+      "id": 108,
+      "name": "Vrlika",
+      "county_id": 17
+    },
+    {
+      "id": 109,
+      "name": "Komiža",
+      "county_id": 17
+    },
+    {
+      "id": 110,
+      "name": "Pula",
+      "county_id": 18
+    },
+    {
+      "id": 111,
+      "name": "Poreč",
+      "county_id": 18
+    },
+    {
+      "id": 112,
+      "name": "Rovinj",
+      "county_id": 18
+    },
+    {
+      "id": 113,
+      "name": "Umag",
+      "county_id": 18
+    },
+    {
+      "id": 114,
+      "name": "Labin",
+      "county_id": 18
+    },
+    {
+      "id": 115,
+      "name": "Pazin",
+      "county_id": 18
+    },
+    {
+      "id": 116,
+      "name": "Buzet",
+      "county_id": 18
+    },
+    {
+      "id": 117,
+      "name": "Vodnjan",
+      "county_id": 18
+    },
+    {
+      "id": 118,
+      "name": "Buje",
+      "county_id": 18
+    },
+    {
+      "id": 119,
+      "name": "Novigrad",
+      "county_id": 18
+    },
+    {
+      "id": 120,
+      "name": "Dubrovnik",
+      "county_id": 19
+    },
+    {
+      "id": 121,
+      "name": "Metković",
+      "county_id": 19
+    },
+    {
+      "id": 122,
+      "name": "Ploče",
+      "county_id": 19
+    },
+    {
+      "id": 123,
+      "name": "Korčula",
+      "county_id": 19
+    },
+    {
+      "id": 124,
+      "name": "Opuzen",
+      "county_id": 19
+    },
+    {
+      "id": 125,
+      "name": "Čakovec",
+      "county_id": 20
+    },
+    {
+      "id": 126,
+      "name": "Prelog",
+      "county_id": 20
+    },
+    {
+      "id": 127,
+      "name": "Mursko Središće",
+      "county_id": 20
+    },
+    {
+      "id": 128,
+      "name": "Zagreb",
+      "county_id": 21
+    }
+  ]
+}
