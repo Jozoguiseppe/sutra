@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useId, useRef, useState } from 'react';
 import type { MeResponse } from '@/lib/api-types';
 import { apiSend, errorCode, errorKey } from '@/lib/client/api';
@@ -130,6 +131,11 @@ export default function Onboarding({ onDone }: { onDone: (me: MeResponse) => voi
       </section>
 
       <p className="mt-5 text-center text-sm text-muted">{t('onboard.note')}</p>
+      <p className="mt-3 text-center">
+        <Link href="/pravila" className="inline-flex min-h-[44px] items-center px-3 text-sm font-semibold text-dawn-400 underline underline-offset-4">
+          {t('rules.link')}
+        </Link>
+      </p>
     </main>
   );
 }

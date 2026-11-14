@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useCallback, useEffect, useRef } from 'react';
 import type { MeResponse } from '@/lib/api-types';
 import { useRounds } from '@/lib/client/useRounds';
@@ -29,7 +30,12 @@ export default function Home({ me, onRefreshMe }: { me: MeResponse; onRefreshMe:
   return (
     <main className="mx-auto flex max-w-md flex-col gap-7 px-4 pt-6">
       <header className="rise">
-        <p className="text-sm text-muted">{t('home.greeting', { nick: me.player.nickname })}</p>
+        <div className="flex items-center justify-between gap-3">
+          <p className="text-sm text-muted">{t('home.greeting', { nick: me.player.nickname })}</p>
+          <Link href="/pravila" className="inline-flex min-h-[44px] items-center text-sm font-semibold text-dawn-400 underline underline-offset-4">
+            {t('rules.link')}
+          </Link>
+        </div>
         <p className="mt-3 text-xs font-bold uppercase tracking-[0.18em] text-dawn-400">
           {t('home.position.label')}
         </p>
